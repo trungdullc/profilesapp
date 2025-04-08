@@ -35,6 +35,8 @@ export default function App() {
   }
 
   return (
+    <>
+    <h1>Trung Du Auth Checker from UNT using AWS technologies</h1>
     <Flex
       className="App"
       justifyContent="center"
@@ -74,5 +76,6 @@ export default function App() {
       </Grid>
       <Button onClick={signOut}>Sign Out</Button>
     </Flex>
+    </>
   );
 }
